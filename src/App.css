@@ -1,0 +1,46 @@
+body {
+  background-color: #f6f6f6;
+  height: 100vh;
+}
+
+.center {
+  text-align: center;
+  /* display: block; */
+  /* width: 100%; */
+  /* display: inline-block; */
+  margin-left: 5%;
+}
+
+p {
+  margin: 0; /* Убираем внешние отступы */
+}
+
+/* Стили для первого <p> в каждом блоке */
+div p:first-child {
+  font-size: 13px; /* Размер текста */
+  color: black; /* Цвет текста */
+}
+
+/* Стили для второго <p> в каждом блоке */
+div p:last-child {
+  font-size: 10px; /* Размер текста */
+  color: gray; /* Цвет текста */
+}
+
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.bolno {
+  color: red;
+/* font-size: 200%; */
+
+}
